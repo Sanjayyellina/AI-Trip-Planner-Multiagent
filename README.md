@@ -6,19 +6,23 @@
 The **AI Trip Planner** is an intelligent, agent-based travel planning assistant that generates personalized itineraries based on user preferences, duration, and budget.  
 Built with **FastAPI** (backend), **Streamlit** (frontend), and **Groq/OpenAI LLMs**, it demonstrates the full pipeline of a **Generative AI application** — from user prompt → reasoning agent → data tools → real-time itinerary response.
 
-### project 
+##  project 
+
 This project was built to showcase how Generative AI and agentic systems can transform real-world problem-solving — in this case, travel planning. I wanted to demonstrate how a reasoning LLM can analyze user intent (“Plan a 5-day trip to Goa”) and dynamically generate a detailed, data-driven itinerary.
 The goal was to design a complete AI product pipeline — from frontend user interaction (Streamlit), to backend orchestration (FastAPI), to LLM reasoning (Groq / OpenAI), and external API integrations (Maps, Weather).
 Through this project, I focused on multi-agent design thinking, prompt engineering, and AI tool integration, aiming to prove that AI systems can move beyond text — towards building personalized, context-aware experiences that feel human and practical.
+
 ---
 
 ##  Features
+
  **Conversational AI Interface:** Users can ask natural-language questions like *“Plan a 5-day trip to Goa under $1000”*.  
  **Dynamic Itinerary Generation:** The agent constructs daily schedules with destinations, activities, and estimated costs.  
  **Tool Integration:** Connects with external APIs (e.g., Maps, Weather, Places) to enrich trip data.  
  **Dual-Mode System:** Runs as both a **FastAPI backend** and an interactive **Streamlit web app**.  
  **Agentic Architecture:** Modular LLM + tools + prompt libraries for reasoning, context, and execution.  
  **Environment-Based Secrets:** `.env` file used for API keys and configuration isolation.  
+
 
 ---
 
